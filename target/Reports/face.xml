@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="81.338297">
+<testcase classname="Validate the forgotpassword functionality" name="Validate by passing mobile number to reset the password" time="42.443135">
+<system-out><![CDATA[Given User should open the chorme browser and goto facebook.................passed
+When User should click the forgotpassword button............................passed
+And Navigate to the password reset page.....................................passed
+And User should pass the moble number.......................................passed
+And User should click the search button.....................................passed
+Then Validate the page url to know if password has resetted.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login funtionality of facebook webstie" name="Validate with invalid username and password" time="38.895162">
+<skipped><![CDATA[Given User should open the chorme browser and launch the url................passed
+When User should enter the invalid credentials in the feilds with List......passed
+And User should get the title of the page...................................passed
+And User to click login button..............................................passed
+Then User login check invalid page opendUp..................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
